@@ -56,7 +56,7 @@ function Navbar(props) {
       className="flex flex-col items-center justify-center gap-4 pt-10"
     >
       <Link href="/">
-        <img src="assets/logo.svg" alt="" className="w-auto h-[36px]" />
+        <img src="assets/logo.svg" alt="logo" className="w-auto h-[36px]" />
       </Link>
 
       <List className="flex flex-col justify-center items-center gap-4 mt-10">
