@@ -56,7 +56,7 @@ const BlogSection = () => {
           </div>
          
         </div>
-        {/* reuble card blog */}
+        {/* reuble card */}
         <div className="flex flex-col items-center  justify-center max-w-[340px]">
           <div className="relative xs:w-[333px] xs:h-[200px]  overflow-hidden bg-[url('/assets/blog/blog1.png')] bg-center bg-cover  rounded-[30px]">
           
