@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
@@ -14,10 +10,9 @@
   font-family: "Poppins", sans-serif !important;
 }
 
-.active{
-  background-color: #D7AB32;
-  color: #ffffff
-  ;
+.active {
+  background-color: #d7ab32;
+  color: #ffffff;
 }
 
 .swiper {
@@ -28,7 +23,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: 'transparent';
+  background: "transparent";
 
   /* Center slide text vertically */
   display: flex;
@@ -42,17 +37,7 @@
   height: 100%;
   object-fit: cover;
 }
-.swiper-button-prev{
-  border-radius: 50% !important;
-  background-color: #ffffff !important;
-  color: #808080 !important;
-  padding: 20px !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  
-}
-.swiper-button-next{
+.swiper-button-prev {
   border-radius: 50% !important;
   background-color: #ffffff !important;
   color: #808080 !important;
@@ -61,22 +46,29 @@
   justify-content: center !important;
   align-items: center !important;
 }
-.swiper-button-prev::after, .swiper-button-next::after{
+.swiper-button-next {
+  border-radius: 50% !important;
+  background-color: #ffffff !important;
+  color: #808080 !important;
+  padding: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
   font-size: 20px !important;
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 70px !important;
   height: 5px !important;
   border-radius: 0 !important;
   background-color: #808080 !important;
-
-  
 }
-.swiper-pagination-bullet-active{
-  background-color: #D7AB32 !important;
+.swiper-pagination-bullet-active {
+  background-color: #d7ab32 !important;
 }
-.swiper-pagination{
-
+.swiper-pagination {
   width: 100% !important;
   display: flex !important;
   justify-content: space-around !important;
@@ -87,7 +79,7 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-} *//* width */
+} */ /* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -109,7 +101,6 @@
   background: #555;
 }
 
-
-.serviceSection{
-  background: linear-gradient(90deg, #A67E2D 0%, #D7AB32 100%);  
+.serviceSection {
+  background: linear-gradient(90deg, #a67e2d 0%, #d7ab32 100%);
 }

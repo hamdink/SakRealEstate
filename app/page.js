@@ -6,6 +6,7 @@ import NeighborhoodProperties from "./components/NeighborhoodProperties";
 import Team from "./components/Team";
 import BlogSection from "./components/BlogSection";
 import Testimonials from "./components/Testimonials";
+import FAQSection from "./components/FAQSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Team />
       <BlogSection />
       <Testimonials />
+      <FAQSection />
     </div>
   );
 }
