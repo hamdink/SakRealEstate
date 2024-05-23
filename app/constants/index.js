@@ -118,9 +118,52 @@ export const about = {
     "Content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will cover many web sites still in their infancy.",
 };
 
+export const listings = {
+  heading1: "Our Listings",
+  p_heading1_1:
+    "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum",
+  p_heading1_2: "ullamcorper sed pharetra sene.",
+  image1_src: "/assets/listings/listingsImage1.png",
+  image1_alt: "listingsImage1",
+  image2_src: "/assets/listings/listingsImage2.png",
+  image2_alt: "listingsImage2",
+  heading2: "Best real estate in Qatar",
+  p_heading2_1:
+    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.",
+  p_heading2_2:
+    "Content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will cover many web sites still in their infancy.",
+};
+
 export const bannersData = [
   { value: 100, label: "Client Satisfaction" },
   { value: 24, label: "Client Satisfaction", highlight: "h" },
   { value: 98, label: "Client Satisfaction", highlight: "+" },
   { value: 208, label: "Client Satisfaction", highlight: "+" },
+];
+
+export const valuesData = [
+  {
+    icon: "xxx",
+    title: "Innovation",
+    description:
+      "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
+  },
+  {
+    icon: "xxx",
+    title: "Team work",
+    description:
+      "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
+  },
+  {
+    icon: "xxx",
+    title: "Excellence",
+    description:
+      "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
+  },
+  {
+    icon: "xxx",
+    title: "Responsibility",
+    description:
+      "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
+  },
 ];
