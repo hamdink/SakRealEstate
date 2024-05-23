@@ -134,6 +134,22 @@ export const listings = {
     "Content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will cover many web sites still in their infancy.",
 };
 
+export const services = {
+  heading1: "Our Services",
+  p_heading1_1:
+    "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum",
+  p_heading1_2: "ullamcorper sed pharetra sene.",
+  image1_src: "/assets/services/servicesImage1.png",
+  image1_alt: "servicesImage1",
+  image2_src: "/assets/services/servicesImage2.png",
+  image2_alt: "servicesImage2",
+  heading2: "We’ll make it easy for you",
+  p_heading2_1:
+    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.",
+  p_heading2_2:
+    "Content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will cover many web sites still in their infancy.",
+};
+
 export const bannersData = [
   { value: 100, label: "Client Satisfaction" },
   { value: 24, label: "Client Satisfaction", highlight: "h" },
@@ -165,5 +181,38 @@ export const valuesData = [
     title: "Responsibility",
     description:
       "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
+  },
+];
+
+export const accordionItems = [
+  {
+    title: "Attention to Details",
+    details:
+      "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer.",
+    icon: "/assets/services/details.svg",
+  },
+  {
+    title: "A Plan for Success",
+    details:
+      "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer.",
+    icon: "/assets/services/plan.svg",
+  },
+  {
+    title: "Experts Only",
+    details:
+      "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer.",
+    icon: "/assets/services/experts.svg",
+  },
+  {
+    title: "Meeting Deadlines",
+    details:
+      "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer.",
+    icon: "/assets/services/meetings.svg",
+  },
+  {
+    title: "Award-Winning",
+    details:
+      "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer.",
+    icon: "/assets/services/details.svg",
   },
 ];
