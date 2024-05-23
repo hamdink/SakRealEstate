@@ -2,12 +2,11 @@
 import React from "react";
 import HouseCard from "./HouseCard";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import './customStyle/swiperHouses.css'
+import "./customStyle/swiperHouses.css";
 const SwiperHouses = () => {
   return (
     <section className="w-full flex flex-col items-center justify-normal mt-10">
@@ -40,31 +39,39 @@ const SwiperHouses = () => {
         </div>
       </div>
       <div className="w-full flex justify-center items-center mt-10">
-      <Swiper
-        id="houseSSwiper"
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        loop
-        breakpoints={{
-          768: {
-            slidesPerView: 3,
-          },
-          1024: {
-            slidesPerView: 4,
-          },
-        }}
-      >
-        <SwiperSlide><HouseCard/></SwiperSlide>
-        <SwiperSlide><HouseCard/></SwiperSlide>
-        <SwiperSlide><HouseCard/></SwiperSlide>
-        <SwiperSlide><HouseCard/></SwiperSlide>
-        <SwiperSlide><HouseCard/></SwiperSlide>
-        
-       
-      </Swiper>
+        <Swiper
+          id="houseSSwiper"
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+          }}
+          loop
+          breakpoints={{
+            768: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <HouseCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HouseCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HouseCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HouseCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HouseCard />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );

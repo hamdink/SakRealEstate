@@ -12,7 +12,7 @@ const HeadingPage = ({
   p_heading2_1,
   p_heading2_2,
 }) => (
-  <section className="min-h-screen w-full mt-10 lg:mt-20 relative bg-[url('/assets/background/heading-bg.png')] bg-center bg-contain bg-no-repeat mb-48">
+  <section className="min-h-screen w-full mt-10 lg:mt-20 relative bg-[url('/assets/background/heading-bg.png')] bg-center bg-contain bg-no-repeat mb-52">
     <div className="w-full flex flex-col items-center justify-center relative">
       <h1 className="headingPage">{heading1}</h1>
       <p className="p_heading">
@@ -24,7 +24,7 @@ const HeadingPage = ({
         <Image src={image1_src} alt={image1_alt} width={595} height={393} />
         <Image src={image2_src} alt={image2_alt} width={320} height={393} />
       </div>
-      <div className="flex w-[70%] absolute bottom-[-70%] z-10">
+      <div className="flex w-[70%] absolute bottom-[-65%] z-10">
         <h2 className="heading_2Page flex-[0.30]">{heading2}</h2>
         <div className="flex-[0.70] flex flex-col">
           <p className="p_heading_2">{p_heading2_1}</p>

@@ -114,7 +114,7 @@
 }
 
 .p_heading {
-  @apply font-poppins font-normal text-[25px] text-[#797979] leading-[39px] text-center mb-10;
+  @apply font-poppins font-normal text-[25px] text-[#797979] leading-[39px] text-center mb-14;
 }
 
 .p_heading_2 {

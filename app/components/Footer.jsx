@@ -3,7 +3,7 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FBF7EB] w-full">
+    <footer className="bg-[#FBF7EB] w-full mt-10">
       <div className="flex w-full sm:flex-row flex-col py-10 px-40">
         <div className="flex flex-[0.75] sm:items-start items-center flex-col w-full mr-4">
           <Image
