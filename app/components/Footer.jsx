@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   return (
     <footer className="bg-[#FBF7EB] w-full">
-      <div className="flex w-full sm:flex-row flex-col py-6 px-10">
+      <div className="flex w-full sm:flex-row flex-col py-10 px-40">
         <div className="flex flex-[0.75] sm:items-start items-center flex-col w-full mr-4">
           <Image
             src="assets/footerLogo.svg"

@@ -12,12 +12,12 @@ const FAQSection = () => {
     if (activeIndex < faqs.length - 1 && !animationCompleted) {
       timerRef.current = setTimeout(() => {
         setActiveIndex((prevIndex) => prevIndex + 1);
-      }, 2000);
+      }, 1500);
     } else if (activeIndex === faqs.length - 1 && !animationCompleted) {
       timerRef.current = setTimeout(() => {
         setAnimationCompleted(true);
         setActiveIndex(0);
-      }, 2000);
+      }, 1500);
     }
 
     return () => clearTimeout(timerRef.current);
@@ -30,7 +30,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="w-full p-10 lg:block hidden">
+    <section className="w-full py-10 px-40 lg:block hidden">
       <div className="w-full relative h-[600px]">
         <h2 className="text-[48px] font-extrabold leading-[64px]">
           Frequently Asked Questions
@@ -48,7 +48,7 @@ const FAQSection = () => {
                 <div className="flex gap-x-2">
                   <div
                     className={`rounded-full w-[24px] h-[24px] ${
-                      activeIndex === index ? "bg-[#D7AB32]" : "bg-sky-700"
+                      activeIndex === index ? "bg-[#D7AB32]" : "bg-[#FBF7EB]"
                     }`}
                   />
                   <p className="font-poppins font-normal text-[16px] text-[#000000] leading-[24px]">

@@ -8,9 +8,9 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section className="w-full p-10 lg:h-[500px]">
+    <section className="w-full py-10 px-40 lg:h-[500px]">
       <div className="w-full flex lg:flex-row flex-col items-center pt-4 lg:h-full">
-        <div className="flex flex-col items-start flex-[0.75] sm:pl-0 pl-6 lg:h-[90%]">
+        <div className="flex flex-col items-start flex-[1] sm:pl-0 pl-6 lg:h-[90%]">
           <h3 className="font-poppins text-[#D7AB32] sm:text-[19px] text-[16px] font-medium sm:leading-[29px] leading-[24px]">
             Testimonials
           </h3>
@@ -40,13 +40,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="w-full flex-[1] lg:h-[90%]">
-          <Swiper
-            style={{
-              width: "full",
-              height: "full",
-            }}
-            direction={"vertical"}
-          >
+          <Swiper direction={"vertical"}>
             <SwiperSlide>
               <TestimonialCard />
             </SwiperSlide>

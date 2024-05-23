@@ -104,3 +104,19 @@
 .serviceSection {
   background: linear-gradient(90deg, #a67e2d 0%, #d7ab32 100%);
 }
+
+.headingPage {
+  @apply font-poppins font-extrabold text-[48px] text-[#D7AB32] leading-[53px] mb-6;
+}
+
+.heading_2Page {
+  @apply font-poppins font-bold text-[50px] text-[#D7AB32] leading-[55px];
+}
+
+.p_heading {
+  @apply font-poppins font-normal text-[25px] text-[#797979] leading-[39px] text-center mb-10;
+}
+
+.p_heading_2 {
+  @apply font-poppins font-normal text-[22px] text-[#797979] leading-[34px] text-start;
+}
