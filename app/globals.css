@@ -120,3 +120,11 @@
 .p_heading_2 {
   @apply font-poppins font-normal text-[22px] text-[#797979] leading-[34px] text-start;
 }
+
+.contactForm_label {
+  @apply font-poppins font-semibold md:text-[20px] text-[15px] text-[#242331] md:leading-[30px] leading-[20px];
+}
+
+.contactForm_input {
+  @apply w-full border border-[#D3D3D3] rounded-[20px] outline-none py-4 text-[#797979] text-[16px] mt-4 placeholder:text-[16px] placeholder:font-normal placeholder:text-[#797979] md:placeholder:pl-2 placeholder:pl-0 md:pl-6 pl-4;
+}

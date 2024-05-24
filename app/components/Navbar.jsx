@@ -37,6 +37,10 @@ function Navbar(props) {
       path: "/blogs",
     },
     {
+      name: `Career`,
+      path: "/career",
+    },
+    {
       name: `Contact`,
       path: "/contact",
     },
@@ -59,7 +63,7 @@ function Navbar(props) {
         <img src="assets/logo.svg" alt="logo" className="w-auto h-[36px]" />
       </Link>
 
-      <List className="flex flex-col justify-center items-center gap-4 mt-10">
+      <List className="flex flex-col justify-center items-center gap-2 mt-10">
         {routess.map((route, index) => (
           <Link
             key={index}

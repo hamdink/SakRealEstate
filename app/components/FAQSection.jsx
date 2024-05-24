@@ -5,32 +5,59 @@ import Image from "next/image";
 
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(-1);
+  const [animationStarted, setAnimationStarted] = useState(false);
   const [animationCompleted, setAnimationCompleted] = useState(false);
   const timerRef = useRef(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
-    if (activeIndex < faqs.length - 1 && !animationCompleted) {
-      timerRef.current = setTimeout(() => {
-        setActiveIndex((prevIndex) => prevIndex + 1);
-      }, 1500);
-    } else if (activeIndex === faqs.length - 1 && !animationCompleted) {
-      timerRef.current = setTimeout(() => {
-        setAnimationCompleted(true);
-        setActiveIndex(0);
-      }, 1500);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !animationStarted) {
+          setAnimationStarted(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+      clearTimeout(timerRef.current);
+    };
+  }, [animationStarted]);
+
+  useEffect(() => {
+    if (animationStarted && !animationCompleted) {
+      if (activeIndex < faqs.length - 1) {
+        timerRef.current = setTimeout(() => {
+          setActiveIndex((prevIndex) => prevIndex + 1);
+        }, 1500);
+      } else if (activeIndex === faqs.length - 1) {
+        timerRef.current = setTimeout(() => {
+          setAnimationCompleted(true);
+          setActiveIndex(0);
+        }, 1500);
+      }
     }
 
     return () => clearTimeout(timerRef.current);
-  }, [activeIndex, animationCompleted]);
+  }, [activeIndex, animationStarted, animationCompleted]);
 
   const handleQuestionClick = (index) => {
     clearTimeout(timerRef.current);
     setActiveIndex(index);
-    setAnimationCompleted(true);
+    setAnimationStarted(true);
+    setAnimationCompleted(false);
   };
 
   return (
-    <section className="w-full py-10 px-40 lg:block hidden">
+    <section ref={sectionRef} className="w-full py-10 px-40 lg:block hidden">
       <div className="w-full relative h-[600px]">
         <h2 className="text-[48px] font-extrabold leading-[64px]">
           Frequently Asked Questions
