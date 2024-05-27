@@ -106,19 +106,19 @@
 }
 
 .headingPage {
-  @apply font-poppins font-extrabold text-[48px] text-[#D7AB32] leading-[53px] mb-6;
+  @apply font-poppins font-extrabold lg:text-[48px] sm:text-[40px] text-[20px] text-[#D7AB32] lg:leading-[53px] sm:leading-[40px] leading-[20px] mb-6;
 }
 
 .heading_2Page {
-  @apply font-poppins font-bold text-[50px] text-[#D7AB32] leading-[55px];
+  @apply font-poppins font-bold xl:text-[50px] md:text-[40px] sm:text-[30px] text-[20px] text-[#D7AB32] xl:leading-[55px] lg:leading-[40px] md:leading-[30px] leading-[20px] sm:text-start text-center lg:mb-14 mb-6;
 }
 
 .p_heading {
-  @apply font-poppins font-normal text-[25px] text-[#797979] leading-[39px] text-center mb-14;
+  @apply font-poppins font-normal lg:text-[25px] sm:text-[19px] text-[12px] text-[#797979] lg:leading-[39px] sm:leading-[25px] leading-[15px] text-center;
 }
 
 .p_heading_2 {
-  @apply font-poppins font-normal text-[22px] text-[#797979] leading-[34px] text-start;
+  @apply font-poppins font-normal xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[13px] text-[#797979] xl:leading-[40px] lg:leading-[28px] md:leading-[30px] leading-[15px] text-start;
 }
 
 .contactForm_label {

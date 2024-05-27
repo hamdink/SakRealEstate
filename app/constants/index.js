@@ -159,25 +159,29 @@ export const bannersData = [
 
 export const valuesData = [
   {
-    icon: "xxx",
+    src: "/assets/about/innovation.svg",
+    alt: "innovation",
     title: "Innovation",
     description:
       "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
   },
   {
-    icon: "xxx",
+    src: "/assets/about/teamWork.svg",
+    alt: "team-work",
     title: "Team work",
     description:
       "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
   },
   {
-    icon: "xxx",
+    src: "/assets/about/excellence.svg",
+    alt: "excellence",
     title: "Excellence",
     description:
       "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",
   },
   {
-    icon: "xxx",
+    src: "/assets/about/responsibility.svg",
+    alt: "responsibility",
     title: "Responsibility",
     description:
       "Long established fact that a readeed to will be distracted by the readable content of a page when looking at its layout",

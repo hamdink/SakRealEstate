@@ -94,7 +94,7 @@ function Navbar(props) {
               <img src="assets/logo.svg" alt="" className="w-auto " />
             </Link>
             <div className="flex justify-center items-center gap-5">
-              <ul className="hidden lg:flex justify-center gap-10 items-center">
+              <ul className="hidden lg:flex justify-center gap-5 items-center">
                 {routess.map((route, index) => (
                   <Link
                     href={route.path}

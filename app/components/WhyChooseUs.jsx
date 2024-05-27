@@ -47,21 +47,21 @@ const CustomAccordionDetails = styled(AccordionDetails)({
 
 const WhyChooseUs = () => {
   return (
-    <section className="w-full px-10 py-10 mt-10 lg:px-40">
+    <section className="w-full px-10 py-10 sm:mt-10 mt-5 lg:px-40">
       <div className="w-full flex flex-col justify-center items-center">
         <h2
-          className="font-poppins font-bold text-4xl text-[#D7AB32] leading-[60px]"
+          className="font-poppins font-bold sm:text-[40px] text-[30px] text-[#D7AB32] sm:leading-[60px] leading-[20px]"
           style={{ textShadow: "0px 4px 31px rgba(0, 0, 0, 0.11)" }}
         >
           Why Choose Us
         </h2>
-        <p className="font-poppins font-normal text-xl text-black leading-[36px] text-center mt-10">
+        <p className="font-poppins font-normal sm:text-[24px] text-[15px] text-black sm:leading-[36px] leading-[20px] text-centersm:text-center text-start sm:mt-10 mt-4">
           Sometimes, we need to check the time, wondering when our work or
           meeting
           <br />
           will finish, without getting caught by others.
         </p>
-        <div className="mt-20 flex flex-col items-center lg:flex-row lg:gap-x-6 gap-y-6 justify-center">
+        <div className="sm:mt-20 mt-10 flex flex-col items-center lg:flex-row lg:gap-x-6 gap-y-4 justify-center">
           <Image
             src="/assets/services/whyChooseUs.png"
             alt="whyChooseUs"
