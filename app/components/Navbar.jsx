@@ -60,7 +60,7 @@ function Navbar(props) {
       className="flex flex-col items-center justify-center gap-4 pt-10"
     >
       <Link href="/">
-        <img src="assets/logo.svg" alt="logo" className="w-auto h-[36px]" />
+        <img src="/assets/logo.svg" alt="logo" className="w-auto h-[36px]" />
       </Link>
 
       <List className="flex flex-col justify-center items-center gap-2 mt-10">
@@ -91,7 +91,7 @@ function Navbar(props) {
         <Toolbar className="bg-white w-full lg:w-[80%]">
           <div className="w-full flex justify-between p-3 items-center  ">
             <Link href="/">
-              <img src="assets/logo.svg" alt="" className="w-auto " />
+              <img src="/assets/logo.svg" alt="" className="w-auto " />
             </Link>
             <div className="flex justify-center items-center gap-5">
               <ul className="hidden lg:flex justify-center gap-5 items-center">
@@ -131,7 +131,7 @@ function Navbar(props) {
               sx={{ mr: 2, display: { md: "none" } }}
             >
               <img
-                src="assets/menu.svg"
+                src="/assets/menu.svg"
                 alt=""
                 className="lg:hidden w-auto h-auto cursor-pointer z-50"
               />

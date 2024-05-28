@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="flex w-full sm:flex-row flex-col lg:py-10 py-5 lg:px-40 md:px-20 px-10">
         <div className="flex xl:flex-[0.5] flex-[1] items-start justify-center flex-col w-full mr-4">
           <Image
-            src="assets/footerLogo.svg"
+            src="/assets/footerLogo.svg"
             alt="logo"
             width={128}
             height={185}
           />
           <div className="flex flex-row mt-8">
             <Image
-              src="assets/icons/phone.svg"
+              src="/assets/icons/phone.svg"
               alt="phone"
               width={20}
               height={20}
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-row mt-4">
             <Image
-              src="assets/icons/mail.svg"
+              src="/assets/icons/mail.svg"
               alt="mail"
               width={20}
               height={20}

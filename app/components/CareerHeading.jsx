@@ -53,7 +53,7 @@ const CareerHeading = () => {
 
   return (
     <section className="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/assets/background/heading-bg.png')] bg-top bg-cover bg-no-repeat md:px-0 px-4">
-      <h1 className="font-poppins font-bold md:text-[40px] text-[20px] text-[#000000] leading-[40px] md:mt-6 mt-10 text-center">
+      <h1 className="font-poppins font-bold md:text-[40px] text-[20px] text-[#000000] leading-[40px] md:mt-16 mt-20 text-center">
         Newest <span className="text-[#D7AB32]">Jobs</span> For you
       </h1>
       <p className="font-poppins font-normal md:text-[18px] text-[15px] text-[#000000] leading-[28px] md:mt-6 mt-4 text-center">
